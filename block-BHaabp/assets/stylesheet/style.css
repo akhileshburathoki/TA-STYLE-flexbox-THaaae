@@ -1,0 +1,242 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5,h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+/* CONTAINER */
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 50px 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+/* HEADER */
+.header {
+	background-image: linear-gradient(to right,#564875,#504C75,#584977,#5B4777,#624679,#694479,#71427A,#704077,#774078)
+
+}
+.heading {
+	color: white;
+	font-size: 28px;
+}
+.nav {
+	display: flex;
+	align-items: center;
+}
+.nav a {
+	text-decoration: none;
+	margin-left: 20px;
+	color: green;
+}
+.col-1-2 {
+	width: 50%;
+	color: white;
+}
+.text {
+	font-size: 50px;
+}
+.col {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	border-left: 1px dotted white;
+	line-height: 1.5;
+	padding: 10px 10px 10px 40px;
+}
+.col p {
+	color: #A389AC;
+}
+.col a {
+	width: 125px;
+	text-decoration: none;
+	color: white;
+	background-color: #5EBD8A;
+	padding: 10px;
+	border-radius: 15px; 
+}
+/* CUSTOM STYLES */
+
+.div {
+	line-height: 1.5;
+	color: #707070;
+	width: 50%;
+}
+.div-1-2 {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding-right: 50px;
+}
+.div-1-2 h2 {
+	font-size: 24px;
+	margin-bottom: 30px;
+}
+.div-1-2 p {
+	line-height: 2;
+	margin-bottom: 20px;
+}
+.div-1-2 a {
+	width: 130px;
+	padding: 10px;
+	text-decoration: none;
+	color: #707070;
+	border: 1px solid #EFEFEF;
+	border-radius: 15px;
+}
+.div-2-1 {
+	border-left: 1px dotted black;
+	padding-left: 40px; 
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.div-2-1 i {
+	color: #5EBD8A;
+	margin-right: 15px;
+}
+.section {
+	background-color: #FAFAFA;
+}
+.column {
+	flex-direction: column;
+}
+.flex {
+	display: flex;
+	justify-content: space-between;
+	background-color: white;
+}
+.flex-1-2 {
+	width: 450px;
+	flex: 1;
+}
+.flex img {
+	width: 100%;
+}
+.flex-1-3 h2 {
+	font-size: 24px;
+	color: #7A7A7A;
+}
+.flex-1-3 p {
+	line-height: 1.5;
+	color: #707070;
+}
+.flex-1-3 a {
+	width: 100px;
+	text-decoration: none;
+	color: #707070;
+	padding: 20px;
+	border: 1px solid #EFEFEF;
+	border-radius: 15px;
+}
+.flex-1-3 {
+	padding-left: 50px;
+	flex: 2;
+	display: flex;
+	justify-content: space-around;
+	flex-flow: column;
+	flex-wrap: wrap;
+}
+.center {
+	justify-content: center;
+}
+.center h2 {
+	color: #717171;
+	padding: 20px;
+	border: 1px solid;
+	border-radius: 15px;
+}
+.main {
+	line-height: 1.5;
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	height: 300px;
+}
+.main h3 {
+	margin-bottom: 20px;
+	font-size: 24px;
+}
+.main p {
+	margin-bottom: 20px;
+}
+.last-2, .last-2 textarea {
+	width: 100%;
+	height: 50%;
+	margin: 20px 0 0 0;
+}
+.last-3 a {
+	color: #717171;
+	padding: 20px;
+	border: 1px solid #EFEFEF;
+	border-radius: 15px;
+}
+.left {
+	padding-right: 50px;
+	border-right: 1px dotted;
+}
+.right {
+	line-height: 2;
+	padding-left: 50px; 
+}
+.right a {
+	color: #707070;
+	text-decoration: none;
+}
+.right i {
+	margin-right: 10px;
+	color: green;
+}
+.footer {
+	background-color: #FAFAFA;
+}
+.footer small {
+	color: #D2D2D2;
+}
